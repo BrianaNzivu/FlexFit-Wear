@@ -109,5 +109,96 @@ footer {
   height: 100px; /* bigger logos */
   object-fit: contain;
 }
+.timeline {
+  position: relative;
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #00a896;
+  z-index: 0;
+}
+
+.timeline-card {
+  position: relative;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+
+.timeline-card .card {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.timeline-card:nth-child(even) .card {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #00a896;
+}
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+}
+
+
+.team-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 4px solid #00a896;
+}
+
+.team-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-intro {
+  width: 200%;
+  min-height: 200px;
+  background-color: rgba(0, 128, 96, 0.4); /* Emerald green with more transparency */
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay-box {
+  background: rgba(0, 0, 0, 0.2); /* Light black overlay for text contrast */
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+}
+.about-intro {
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+  background-color: rgba(0, 128, 96, 0.4); /* Emerald green with transparency */
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-box {
+  background: rgba(0, 0, 0, 0.2); /* Light black overlay for text contrast */
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+}
+
+
 
 
