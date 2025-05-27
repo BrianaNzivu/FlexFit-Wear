@@ -265,4 +265,28 @@ form .form-control:focus {
   margin-top: 5.0rem; 
 }
 
+.stats-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.stat-icon {
+  transition: transform 0.3s;
+}
+
+.stat-icon:hover {
+  transform: scale(1.2);
+}
+
+.stat-number {
+  color: #0a1640;
+  font-weight: 700;
+}
+.card-body img {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.card-body img:hover {
+  transform: scale(1.1);
+}
+
 
